@@ -70,3 +70,17 @@ for (const input of inputs) {
         calculate();    
     });
 }
+
+
+const switchButton = document.querySelector('#switchButton');
+
+switchButton.addEventListener('click' {
+    let theme = document.querySelector('theme');
+
+    if (theme.getAttribute('href') == 'css/main.css') {
+        theme.href = 'dark-theme.css'
+    } else {
+        theme.href = 'css/main.css'
+    }
+} )
+

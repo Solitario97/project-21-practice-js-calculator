@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #161616;
+	color: #fff;
 	margin: 0;
 
 	padding-bottom: 140px;
@@ -25,7 +25,7 @@ img {
 .header-inner {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: #e3f0f7;
+	background-color: #0000;
 }
 
 .header-inner-row {
@@ -92,7 +92,7 @@ img {
 }
 
 .footer-text a {
-	color: #4298e8;
+	color: #fff;
 	text-decoration: underline;
 }
 
@@ -104,7 +104,7 @@ img {
 }
 
 .footer-cta-text a {
-	color: #4298e8;
+	color: #fff;
 	text-decoration: underline;
 }
 
@@ -168,12 +168,12 @@ h6 {
 
 .calc-section {
 	padding: 40px 50px;
-	background-color: #f4f8fa;
+	background-color: #000;
 }
 
 .calc-section:nth-child(odd) {
 	padding: 40px 50px;
-	background-color: #fff;
+	background-color: #000;
 }
 
 .calc-title-light {
@@ -238,10 +238,10 @@ h6 {
 	width: 62px;
 	height: 36px;
 	border-radius: 4px;
-	border: 1px solid #9a9a9a;
+	border: 1px solid #fff;
 	font-size: 24px;
 	font-weight: 700;
-	color: #039be5;
+	color: #fff;
 	text-align: center;
 }
 
@@ -302,7 +302,7 @@ h6 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgb(218, 243, 255);
+	background-color: #000;
 	box-shadow: -10px 0px 25px rgba(143, 179, 195, 0.685);
 }
 
@@ -345,7 +345,7 @@ h6 {
 	display: inline-block;
 	width: 50px;
 	height: 50px;
-	background-color: #e2e2e2;
+	background-color: #000;
 	text-align: center;
 	line-height: 50px;
 	font-size: 22px;
@@ -365,8 +365,8 @@ nav{
 button{
 	padding: 7px;
 	border-radius: 7px;
-	background-color: #161616;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 20px;
 	margin-right: 150px;
 }

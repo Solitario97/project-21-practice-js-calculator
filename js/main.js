@@ -73,7 +73,7 @@ for (const input of inputs) {
 
 const btn1 = document.querySelector('#btn-1');
 
-btn1.addEventListener('click', function () {
+btn1.addEventListener('click', () => {
 const theme = document.querySelector('#theme');
 
     if (theme.getAttribute('href') == 'css/main.css') {

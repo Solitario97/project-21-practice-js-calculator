@@ -3,6 +3,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
+	transition: 1.7s;
 	background-color: #000;
 	margin: 0;
 

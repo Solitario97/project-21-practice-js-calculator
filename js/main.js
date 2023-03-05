@@ -71,14 +71,16 @@ for (const input of inputs) {
     });
 }
 
-
 const btn1 = document.querySelector('#btn-1');
-const theme = document.querySelector('#theme');
-btn1.addEventListener('click', function () {
 
-    if (theme.href == 'css/main.css') {
+btn1.addEventListener('click', function () {
+const theme = document.querySelector('#theme');
+
+    if (theme.getAttribute('href') == 'css/main.css') {
         theme.href = 'css/dark-theme.css';
+        btn1.textContent = 'Light';
     } else {
         theme.href = 'css/main.css';
+        btn1.textContent = 'Dark';
     }    
 });

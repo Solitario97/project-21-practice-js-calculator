@@ -356,7 +356,7 @@ h6 {
 }
 
 .rooms-radio-real:checked + .rooms-radio-fake {
-	border: solid 2px #dbd9d9;
+	border: solid 2px #7080f7;
 }
 nav{
 	display: flex;

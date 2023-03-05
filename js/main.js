@@ -72,15 +72,13 @@ for (const input of inputs) {
 }
 
 
-const switchButton = document.querySelector('#switchButton');
+const btn1 = document.querySelector('#btn-1');
+const theme = document.querySelector('#theme');
+btn1.addEventListener('click', function () {
 
-switchButton.addEventListener('click' {
-    let theme = document.querySelector('theme');
-
-    if (theme.getAttribute('href') == 'css/main.css') {
-        theme.href = 'dark-theme.css'
+    if (theme.href == 'css/main.css') {
+        theme.href = 'css/dark-theme.css';
     } else {
-        theme.href = 'css/main.css'
-    }
-} )
-
+        theme.href = 'css/main.css';
+    }    
+});

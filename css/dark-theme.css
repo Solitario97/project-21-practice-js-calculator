@@ -3,6 +3,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
+	background-color: #000;
 	margin: 0;
 
 	padding-bottom: 140px;
@@ -17,6 +18,7 @@ img {
 	max-width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
+	border: solid 2px #dbd9d9;
 	/* background-color: aqua; */
 }
 
@@ -241,7 +243,7 @@ h6 {
 	border: 1px solid #fff;
 	font-size: 24px;
 	font-weight: 700;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
@@ -314,7 +316,7 @@ h6 {
 
 .calc-price-value {
 	font-size: 26px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .hidden {
@@ -354,7 +356,7 @@ h6 {
 }
 
 .rooms-radio-real:checked + .rooms-radio-fake {
-	background-color: #fbd422;
+	border: solid 2px #dbd9d9;
 }
 nav{
 	display: flex;

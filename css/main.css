@@ -362,11 +362,12 @@ nav{
 
 }
 
-button{
+.btn-dark{
 	padding: 7px;
 	border-radius: 7px;
 	background-color: #161616;
 	color: #fff;
 	margin-top: 20px;
 	margin-right: 150px;
+	cursor: pointer;
 }
